@@ -1,0 +1,105 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #FBFBFD;
+    font-family: 'Poppins';
+}
+.beforenav{
+    font-family: poppins;
+    background: #3E3E98;
+    color: white;
+    /* text-align: center; */
+    /* line-height: 18px; */
+    /* width: 100%; */
+    
+}
+.logo{
+    width: 64px;
+    height: 72px;
+}
+.navbar{
+    background: #FBFBFD;
+}
+
+.logofirsttext, .navbar-toggler, #speech-header{       
+  
+    color:#3E3E98;
+    
+}
+.logosecondtext{
+    font-style: normal;
+    /* font-weight: 400;
+    font-size: 16px; */
+    line-height: 24px;
+    color: #535357;
+}
+.logofirsttext{
+    /* font-weight: 00;
+    font-size: 20px; */
+    font-family: poppins;
+}
+.navbar-nav .nav-item .nav-link{
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #535357;
+
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #3E3E98;
+    text-decoration: underline;
+    /* font-weight: bold; */
+    font-family: 'Poppins';
+}
+.speechsection{
+    border: 2px solid green;
+    margin: 0px 100px;
+}
+#mission-icon{
+    width: 48px;
+    height: 48px;
+}
+
+.speech-div{
+    width: 500px;
+}
+#mycard{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+
+}
+footer{
+    background: #3E3E98;
+}
+footer p{
+    font-size: 16px;
+}
+
+/* wing page css */
+.wing-heading{
+    /* font-weight: 600; */
+    font-size: 24px;
+    color: #3E3E98;
+}
+
+@media screen and (max-width: 992px) {
+    .logofirsttext{       
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .logosecondtext{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .speechsection{
+        margin: 0px 30px;
+    }
+    .speech-div{
+        width: auto;
+    }
+  }
