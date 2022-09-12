@@ -54,7 +54,7 @@ body{
     font-family: 'Poppins';
 }
 .speechsection{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     margin: 0px 100px;
 }
 #mission-icon{
@@ -87,14 +87,14 @@ footer p{
 
 @media screen and (max-width: 992px) {
     .logofirsttext{       
-        font-weight: 500;
+        font-weight: 400;
         font-size: 14px;
-        line-height: 18px;
+        /* line-height: 18px; */
     }
     .logosecondtext{
-        font-weight: 400;
+        font-weight: 300;
         font-size: 12px;
-        line-height: 16px;
+        /* line-height: 16px; */
     }
     .speechsection{
         margin: 0px 30px;
