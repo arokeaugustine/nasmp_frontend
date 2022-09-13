@@ -1,7 +1,7 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: #FBFBFD;
+    background: #F5F5F5;
     font-family: 'Poppins';
 }
 .beforenav{
@@ -21,7 +21,7 @@ body{
     background: #FBFBFD;
 }
 
-.logofirsttext, .navbar-toggler, #speech-header{       
+.navbar-toggler, #speech-header{       
   
     color:#3E3E98;
     
@@ -34,8 +34,10 @@ body{
     color: #535357;
 }
 .logofirsttext{
-    /* font-weight: 00;
-    font-size: 20px; */
+    /* font-weight: 00; */
+    font-size: 20px; 
+    color: #E92E37;
+
     font-family: poppins;
 }
 .navbar-nav .nav-item .nav-link{
@@ -48,7 +50,7 @@ body{
 
 }
 .navbar-nav .nav-item .nav-link:hover{
-    color: #3E3E98;
+    color: #E92E37;
     text-decoration: underline;
     /* font-weight: bold; */
     font-family: 'Poppins';
@@ -84,6 +86,10 @@ footer p{
     font-size: 24px;
     color: #3E3E98;
 }
+.searchbtn{
+    background: #E92E37; 
+    color: white;
+}
 
 @media screen and (max-width: 992px) {
     .logofirsttext{       
@@ -95,6 +101,10 @@ footer p{
         font-weight: 300;
         font-size: 12px;
         /* line-height: 16px; */
+    }
+    .carousel img{
+        height: 50vh;
+        background-size: cover;
     }
     .speechsection{
         margin: 0px 30px;
