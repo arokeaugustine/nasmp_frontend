@@ -98,12 +98,12 @@ footer p{
         /* line-height: 18px; */
     }
     .logosecondtext{
-        font-weight: 300;
+        font-weight: 300px;
         font-size: 12px;
         /* line-height: 16px; */
     }
     .carousel img{
-        height: 50vh;
+        height: 300px;
         background-size: cover;
     }
     .speechsection{
