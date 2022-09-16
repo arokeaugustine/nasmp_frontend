@@ -91,6 +91,24 @@ footer p{
     color: white;
 }
 
+/* wing details page */
+.wingDetailCard{
+    background: #FFFFFF;
+/* Elevation 1 */
+
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
+border-radius: 5px;
+}
+#Resource{
+    background: #3E3E98;
+    
+}
+.materialDiv{
+     background: #FFFFFF;
+     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
+     border-radius: 5px;
+}
+
 @media screen and (max-width: 992px) {
     .logofirsttext{       
         font-weight: 400;
