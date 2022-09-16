@@ -55,6 +55,11 @@ body{
     /* font-weight: bold; */
     font-family: 'Poppins';
 }
+
+#signin{
+    background: #E92E37;
+    width: 150px;
+}
 .speechsection{
     /* border: 2px solid green; */
     margin: 0px 100px;
@@ -81,10 +86,8 @@ footer p{
 }
 
 /* wing page css */
-.wing-heading{
-    /* font-weight: 600; */
-    font-size: 24px;
-    color: #3E3E98;
+#page-heading{
+    color: #E92E37;
 }
 .searchbtn{
     background: #E92E37; 
@@ -94,10 +97,8 @@ footer p{
 /* wing details page */
 .wingDetailCard{
     background: #FFFFFF;
-/* Elevation 1 */
-
-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
-border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
 }
 #Resource{
     background: #3E3E98;
@@ -107,6 +108,14 @@ border-radius: 5px;
      background: #FFFFFF;
      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
      border-radius: 5px;
+}
+
+/* gallery page */
+.item{
+    transition: .5s ease-in-out;
+}
+.item:hover{
+    filter: brightness(80%);
 }
 
 @media screen and (max-width: 992px) {
