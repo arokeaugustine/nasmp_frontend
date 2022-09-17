@@ -37,7 +37,7 @@ body{
     /* font-weight: 00; */
     font-size: 20px; 
     color: #E92E37;
-
+    font-weight: 500;
     font-family: poppins;
 }
 .navbar-nav .nav-item .nav-link{
@@ -116,6 +116,12 @@ footer p{
 }
 .item:hover{
     filter: brightness(80%);
+}
+
+/* about page */
+#aboutbtn{
+    color: #3E3E98;
+    font-weight: 600;
 }
 
 @media screen and (max-width: 992px) {
