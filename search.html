@@ -13,20 +13,18 @@
      rel="stylesheet">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" 
      crossorigin="anonymous" referrerpolicy="no-referrer" />
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
-
   </head>
   <body>
     <!-- navbar -->
-    <p class="py-2 py-md-2 w-100 text-center my-0 beforenav px-2">
+    <p class="py-2 py-md-2 w-100 text-center my-0 beforenav ">
       Welcome to Nigerian Army School of Military Police
     </p>
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light ">
       <div class="d-flex">
         <a class="navbar-brand" href="#"><img src="./images/Logo image.png" alt="">
           </a>
-          <div class=" mr-0 d-none d-sm-block">
+          <div class=" mr-0">
             <p class="p-0 mb-0 mt-3 logofirsttext" >Nigerian Army School of Military Police</p>
             <p class="p-0 m-0 logosecondtext">Exemplo Ducemus</p>
           </div>
@@ -54,59 +52,116 @@
             <a class="nav-link" href="contact.html"> Contact  </a>
           </li>
         </ul>
-        
         <a class="nav-link ml-lg-5 ml-sm-0 p-2 mr-3 text-white w-auto" href="#" id="signin"><i class="fa fa-key text-white" aria-hidden="true"></i> Staff Login  </a>
         
       </div>
     </nav>
 
+</div>
+
+
   <!-- main body section that will be used as default margin for other pages -->
 <section class="speechsection my-5">
+  
+<!-- Code for the wings  -->
 
-    <!-- code for about page -->
-
-    <div>
-        <h5 class="h-5" id="page-heading">Photo Gallery</h5>
-
-
-        <div class="container-fluid">
-            <div class="row mt-4">
-                <div class="item col-sm-6 col-md-4 mb-5">
-                    <a href="/images/desktop1.jpg" class="fancybox" data-fancybox="gallery1">
-                        <img src="./images/desktop1.jpg" alt="" width="100%" height="100%">
-                        <p class="mb-2">commandskl</p>
-                    </a>
-
-                </div>
-                <div class="item col-sm-6 col-md-4 mb-5">
-                    <a href="/images/desktop2.jpg" class="fancybox" data-fancybox="gallery1">
-                        <img src="./images/desktop2.jpg" alt="" width="100%" height="100%">
-                    </a>
-                    <p>comand</p>
-                </div>
-                <div class="item col-sm-6 col-md-4 mb-5">
-                    <a href="/images/desktop3.jpg" class="fancybox" data-fancybox="gallery1">
-                        <img src="./images/desktop3.jpg" alt="" width="100%" height="100%">
-                    </a>
-                    <p>na me be this</p>
-                </div>
-                <div class="item col-sm-6 col-md-4 mb-3">
-                    <a href="/images/desktop4.jpg" class="fancybox" data-fancybox="gallery1">
-                        <img src="./images/desktop4.jpg" alt="" width="100%" height="100%">
-                    </a>
-                </div>
-                <div class="item col-sm-6 col-md-4 mb-3">
-                    <a href="/images/desktop5.jpg" class="fancybox" data-fancybox="gallery1">
-                        <img src="./images/desktop5.jpg" alt="" width="100%" height="100%">
-                    </a>
-                </div>
-                <div class="item col-sm-6 col-md-4 mb-3">
-                    <a href="/images/desktop6.jpg" class="fancybox" data-fancybox="gallery1">
-                        <img src="./images/desktop6.jpg" alt="" width="100%" height="100%">
-                    </a>
-                </div>
-            </div>
+<div>
+    <h5 id="page-heading">
+        Search Page
+    </h5>
+    
+    <div class="input-group w-75 mb-3">
+        <input type="text" class="form-control" placeholder="Search for Course materials">
+        <div class="input-group-append">
+          <button class="btn searchbtn" type="button">
+            <i class="fa fa-search"></i>
+          </button>
         </div>
+      </div>
+
+         <!-- materials -->
+         <div class="materialDiv mt-4 mb-3">
+            <p class="py-2 px-2 text-white" id="Resource">
+                Your search Feed
+            </p>
+            <div class="d-flex justify-content-between align-items-center px-4">
+              <div class="d-flex">
+                <img src="./images/pdf icon.jpg" alt="" style="height: 50px;">
+                <div class="ml-3">
+                  <p class="my-0">Introduction to Ms Word</p>
+                  <p class="text-muted my-0">Uploaded by: Austin Aroke</p>
+                  <p class="text-primary my-0 ">September 19th 1997, 6:33pm</p>
+      
+                </div>
+      
+              </div>
+              <div class="text-center my-0 mx">
+                <i class="fa fa-download my-0 d-block" aria-hidden="true"></i>
+                <!-- <p class="text-primary ">Download</p> -->
+                <a href="" class="my-0 py-0 d-block">Download</a>
+              </div>
+            </div>
+            <hr>
+            <div class="d-flex justify-content-between align-items-center px-4">
+              <div class="d-flex">
+                <img src="./images/pdf icon.jpg" alt="" style="height: 50px;">
+                <div class="ml-3">
+                  <p class="my-0">Using Windows Os</p>
+                  <p class="text-muted my-0">Uploaded by: Maj Aroke</p>
+                  <p class="text-primary my-0 ">September 20th 1997, 6:33pm</p>
+      
+                </div>
+      
+              </div>
+              <div class="text-center my-0">
+                <i class="fa fa-download my-0 d-block" aria-hidden="true"></i>
+                <!-- <p class="text-primary ">Download</p> -->
+                <a href="" class="my-0 py-0 d-block">Download</a>
+              </div>
+            </div>
+            <hr>
+            <div class="d-flex justify-content-between align-items-center px-4">
+              <div class="d-flex">
+                <img src="./images/pdf icon.jpg" alt="" style="height: 50px;">
+                <div class="ml-3">
+                  <p class="my-0">ICT practicals</p>
+                  <p class="text-muted my-0">Uploaded by: Maj Aroke</p>
+                  <p class="text-primary my-0 ">September 20th 1997, 6:33pm</p>
+      
+                </div>
+      
+              </div>
+              <div class="text-center my-0">
+                <i class="fa fa-download my-0 d-block" aria-hidden="true"></i>
+                <!-- <p class="text-primary ">Download</p> -->
+                <a href="" class="my-0 py-0 d-block">Download</a>
+              </div>
+            </div>
+            <hr>
+            <div class="d-flex justify-content-between align-items-center px-4">
+              <div class="d-flex">
+                <img src="./images/pdf icon.jpg" alt="" style="height: 50px;">
+                <div class="ml-3">
+                  <p class="my-0">Using Microsoft spreadsheets</p>
+                  <p class="text-muted my-0">Uploaded by: Maj Aroke</p>
+                  <p class="text-primary my-0 ">September 20th 1997, 6:33pm</p>
+      
+                </div>
+      
+              </div>
+              <div class="text-center my-0">
+                <i class="fa fa-download my-0 d-block" aria-hidden="true"></i>
+                <!-- <p class="text-primary ">Download</p> -->
+                <a href="" class="my-0 py-0 d-block">Download</a>
+              </div>
+            </div>
+            <hr>
+           
+          </div>
+       
+
+
+</div>
 </section>
 
 
@@ -179,10 +234,8 @@
 </footer>
 
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script> -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
-     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-</body>
+  </body>
 </html>
